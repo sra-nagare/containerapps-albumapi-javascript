@@ -2,6 +2,12 @@ name: Trigger auto deployment
 on:
   # 手動実行用トリガー
   workflow_dispatch:      
+  # 自動実行用トリガー
+  push:
+    branches: 
+      [ main ]
+    paths:
+    - '**'
 env:
   CONTAINER_REGISTRY: arc202303p27d4skgb42iloe.azurecr.io
   RESOURCE_GROUP_NAME: Handson01-CICD
