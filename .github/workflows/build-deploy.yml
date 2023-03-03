@@ -3,7 +3,7 @@ on:
   # 手動実行用トリガー
   workflow_dispatch:      
 env:
-  CONTAINER_REGISTRY: handson01reponagare.azurecr.io
+  CONTAINER_REGISTRY: arc202303p27d4skgb42iloe.azurecr.io
 jobs:
   build:
     runs-on: ubuntu-22.04
