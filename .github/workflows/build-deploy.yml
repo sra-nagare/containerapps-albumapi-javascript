@@ -5,7 +5,7 @@ on:
 env:
   CONTAINER_REGISTRY: arc202303p27d4skgb42iloe.azurecr.io
   RESOURCE_GROUP_NAME: Handson01-CICD
-  CONTAINERAPP_NAME:  Handson
+  CONTAINERAPP_NAME: ctapp-demo-api
 jobs:
   build:
     runs-on: ubuntu-22.04
